@@ -1,7 +1,7 @@
 // 全局状态
 let currentTheme = localStorage.getItem('theme') || 'light';
-// 艹！根据浏览器语言自动设置默认语言，优先使用localStorage的设置
-let currentLang = localStorage.getItem('language') || (navigator.language.startsWith('zh') ? 'zh' : 'en');
+// 默认语言设置为英文，优先使用 localStorage 的设置
+let currentLang = localStorage.getItem('language') || 'en';
 let sidebarOpen = true;
 
 // 用户下拉菜单功能

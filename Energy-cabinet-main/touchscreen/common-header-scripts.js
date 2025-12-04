@@ -1,8 +1,8 @@
 // 共享的头部脚本 - 语言切换和退出功能
 console.log('common-header-scripts.js loading...');
 
-// 当前语言设置
-let currentLang = localStorage.getItem('language') || 'zh';
+// 当前语言设置 - 默认英文
+let currentLang = localStorage.getItem('language') || 'en';
 
 // 翻译文本
 const translations = {
